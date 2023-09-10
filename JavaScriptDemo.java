@@ -23,8 +23,8 @@ public class JavaScriptDemo {
 		driver.get("https://annauniv.edu/");
 		WebElement d=driver.findElement(By.xpath("//div[@id='navbarNavDropdown']/ul/li[4]/a"));
 		
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("click();", d);
+		//JavascriptExecutor js = (JavascriptExecutor) driver;
+		//js.executeScript("click();", d);
 	}
 
 	@BeforeClass
