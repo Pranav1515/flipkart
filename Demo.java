@@ -1,0 +1,18 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.Test;
+
+public class Demo {
+
+	WebDriver driver;
+	@Test
+	public void Dispaly() {
+		
+		driver =new ChromeDriver();
+		System.out.println("HI Pranav");
+		driver.get("https://nichethyself.com/tourism/home.html");
+		
+	}
+}
