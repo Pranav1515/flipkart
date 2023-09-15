@@ -30,7 +30,7 @@ public class JavaScriptDemo {
 	@BeforeClass
 	public void beforeClass() {
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 	}
 
 	@AfterClass
