@@ -11,7 +11,7 @@ public class Demo {
 	public void Dispaly() {
 		
 		driver =new ChromeDriver();
-		System.out.println("HI Pranav");
+		System.out.println("Hello Pranav");
 		driver.get("https://nichethyself.com/tourism/home.html");
 		
 	}
