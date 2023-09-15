@@ -12,6 +12,7 @@ public class Demo {
 		
 		driver =new ChromeDriver();
 		System.out.println("Hello Pranav");
+		System.out.println("Hi Pranav");
 		driver.get("https://nichethyself.com/tourism/home.html");
 		
 	}
